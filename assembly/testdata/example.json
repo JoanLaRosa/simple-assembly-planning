@@ -1,0 +1,45 @@
+{
+    "name": "Product",
+    "assembly_time": 5,
+    "max_parallel": 2,
+    "children": [
+        {
+            "name": "Component A",
+            "assembly_time": 3,
+            "max_parallel": 1,
+            "children": [
+                {
+                    "name": "Part A1",
+                    "assembly_time": 2,
+                    "max_parallel": 1,
+                    "children": []
+                },
+                {
+                    "name": "Part A2",
+                    "assembly_time": 4,
+                    "max_parallel": 1,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "Component B",
+            "assembly_time": 6,
+            "max_parallel": 2,
+            "children": [
+                {
+                    "name": "Part B1",
+                    "assembly_time": 2,
+                    "max_parallel": 1,
+                    "children": []
+                },
+                {
+                    "name": "Part B2",
+                    "assembly_time": 1,
+                    "max_parallel": 1,
+                    "children": []
+                }
+            ]
+        }
+    ]
+}
