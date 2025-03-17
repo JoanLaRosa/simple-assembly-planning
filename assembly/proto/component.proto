@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package assembly;
+
+option go_package = "github.com/joan/assembly/proto";
+
+message Component {
+  string name = 1;
+  int32 assembly_time = 2;
+  int32 max_parallel = 3;
+  repeated Component children = 4;
+} 
