@@ -1,2 +1,40 @@
 .*
 !.gitignore
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Go workspace file
+go.work
+
+# Dependency directories
+vendor/
+
+# Binary directory
+bin/*
+!bin/.gitkeep
+
+# IDE specific files
+.idea/
+.vscode/
+
+# Generated protobuf files
+*.pb.go
+
+# Build output
+build/
+dist/
+
+# OS specific files
+.DS_Store
+Thumbs.db

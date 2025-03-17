@@ -2,11 +2,10 @@ syntax = "proto3";
 
 package assembly;
 
-option go_package = "github.com/joan/assembly/proto";
-
+// Component represents an assembly unit which might have sub-components.
 message Component {
   string name = 1;
-  int32 assembly_time = 2;
-  int32 max_parallel = 3;
+  int32 assembly_time = 2;  // time (in minutes) to assemble the component from its children
+  int32 max_parallel = 3;   // maximum number of child components that can be assembled concurrently
   repeated Component children = 4;
-} 
+}
