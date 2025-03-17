@@ -1,0 +1,70 @@
+{
+    "name": "Gadget X",
+    "assembly_time": 4,
+    "max_parallel": 3,
+    "children": [
+        {
+            "name": "Module 1",
+            "assembly_time": 3,
+            "max_parallel": 1,
+            "children": [
+                {
+                    "name": "Subpart 1A",
+                    "assembly_time": 3,
+                    "max_parallel": 1,
+                    "children": []
+                },
+                {
+                    "name": "Subpart 1B",
+                    "assembly_time": 2,
+                    "max_parallel": 1,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "Module 2",
+            "assembly_time": 5,
+            "max_parallel": 2,
+            "children": [
+                {
+                    "name": "Subpart 2A",
+                    "assembly_time": 4,
+                    "max_parallel": 1,
+                    "children": []
+                },
+                {
+                    "name": "Subpart 2B",
+                    "assembly_time": 6,
+                    "max_parallel": 1,
+                    "children": []
+                },
+                {
+                    "name": "Subpart 2C",
+                    "assembly_time": 2,
+                    "max_parallel": 1,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "Module 3",
+            "assembly_time": 2,
+            "max_parallel": 2,
+            "children": [
+                {
+                    "name": "Subpart 3A",
+                    "assembly_time": 1,
+                    "max_parallel": 1,
+                    "children": []
+                },
+                {
+                    "name": "Subpart 3B",
+                    "assembly_time": 2,
+                    "max_parallel": 1,
+                    "children": []
+                }
+            ]
+        }
+    ]
+}
